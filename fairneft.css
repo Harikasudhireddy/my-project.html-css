@@ -130,30 +130,11 @@ h5{
     height:300px;
     margin-top:100px;
 }
-.fair{
-    margin-top: 100px;
-    margin-bottom: 20px;
-}
-.neftbusiness{
-    width:60%;
-    margin-left:20px; 
-}
-.neft{
+.businessloan{
     display:flex;
     width:300px;
     height:300px;
-    margin-top:20px; 
-    color:#233992;
+    margin-top:100px; 
 }
-.business{
-    height:300px;
-    width:300px;
-    margin-top:100px;
-}
-.businessloans{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: start;
-    flex-wrap:wrap ;
-}
+
 
