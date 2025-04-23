@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .main{
+        color:beige;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        height: 100px;
+        flex-wrap: wrap;
+    }
+    .heading1{
+        background-color: blue;
+        height: 100px;
+        margin: 0px;
+        width:100px;
+        order: 1;
+        align-self: center;
+    }
+    .heading2{
+        background-color:red;
+        height: 100px;
+        margin: 0px;
+        width:100px;
+        order: 0;
+        align-self: center;
+        
+    }
+    .heading3{
+        background-color: green;
+        height:100px;
+        margin: 0px;
+        width:100px;
+        order: -1;
+        align-self:center ;
+    }
+    .anurag{
+       color: blueviolet; 
+    }
+    #place{
+        color: black;
+    }
+    p{
+        color: burlywood;
+    }
+    @media(max-width:650px){
+        .anurag{
+            color: chartreuse;
+            font-size: 30px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1 class="heading1">1</h1>
+        <h1 class="heading2">2</h2>
+        <h1 class="heading3">3</h3>
+    </div>
+    <div>
+        <h1 class="anurag">
+            Anurag college
+        </h1>
+        <p id="place">
+            kodad
+        </p>
+        <p>
+            508206
+        </p>
+    </div>
+</body>
+</html>
